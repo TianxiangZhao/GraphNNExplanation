@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=1 python test_GNN.py --dataset=SpuriousMotif_0 --nlayer=3 --batch_size=640 --lr=0.01 --datatype=graph --task=gcls --dropout=0 --load_model='./checkpoint/SpuriousMotif_0/gcn/best' > './logs/test0on0'
+CUDA_VISIBLE_DEVICES=1 python test_GNN.py --dataset=SpuriousMotif_0 --nlayer=3 --batch_size=640 --lr=0.01 --datatype=graph --task=gcls --dropout=0 --load_model='./checkpoint/SpuriousMotif_0.3/gcn/best' > './logs/test0.3on0'
+CUDA_VISIBLE_DEVICES=1 python test_GNN.py --dataset=SpuriousMotif_0 --nlayer=3 --batch_size=640 --lr=0.01 --datatype=graph --task=gcls --dropout=0 --load_model='./checkpoint/SpuriousMotif_0.5/gcn/best' > './logs/test0.5on0'
+CUDA_VISIBLE_DEVICES=1 python test_GNN.py --dataset=SpuriousMotif_0 --nlayer=3 --batch_size=640 --lr=0.01 --datatype=graph --task=gcls --dropout=0 --load_model='./checkpoint/SpuriousMotif_0.7/gcn/best' > './logs/test0.7on0'
+CUDA_VISIBLE_DEVICES=1 python test_GNN.py --dataset=SpuriousMotif_0 --nlayer=3 --batch_size=640 --lr=0.01 --datatype=graph --task=gcls --dropout=0 --load_model='./checkpoint/SpuriousMotif_1/gcn/best' > './logs/test1on0'
